@@ -26,7 +26,7 @@ class RoutePlanner {
     RouteModel::Node *start_node;
     RouteModel::Node *end_node;
 
-    float distance = 0.0f;
+    float distance = 0.0f; // Total path distance from start to end
     RouteModel &m_Model;
 };
 
